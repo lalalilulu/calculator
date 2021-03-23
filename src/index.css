@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+@font-face{
+  font-family: 'Digital';
+  src: local('Digital'), url(./fonts/digital-7.ttf) format('truetype');
+}
+
+@font-face{
+  font-family: 'Ostrich';
+  src: local('Ostrich'), url(./fonts/ostrich-regular.ttf) format('truetype');
+}

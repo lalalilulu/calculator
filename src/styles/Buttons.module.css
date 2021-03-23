@@ -1,0 +1,35 @@
+.button{
+  width: 100%;
+  color: white;
+  border-radius: .5rem;
+  outline: none;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.button:hover{
+  opacity: .6;
+}
+
+.numeric{
+  composes: button;
+  border: 3px solid white;
+  background-color: grey;
+}
+
+.action{
+  composes: button;
+  background-color: white;
+  border: transparent;
+  color: black;
+}
+
+.arithmetic{
+  composes: button;
+  background-color: black;
+  border: 3px solid white;
+}
+
+.button:nth-child(17){
+  grid-column: 1/3;
+}

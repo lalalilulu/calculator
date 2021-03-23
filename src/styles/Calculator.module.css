@@ -1,0 +1,26 @@
+.container{
+  display: grid;
+  grid-template-rows: 10fr 20fr 70fr;
+  height: 700px;
+  justify-items: center;
+  background-color: lightsteelblue;
+  padding: 15px;
+  border-radius: 1rem;
+}
+
+.btnContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 25fr);
+  grid-template-rows: repeat(5, 90px);
+  grid-gap: 5px;
+  width: 450px;
+  padding: 10px;
+}
+
+.header{
+  font-family: Ostrich;
+  font-size: 60px;
+  color: white;
+  font-weight: 400;
+  margin: 10px;
+}
